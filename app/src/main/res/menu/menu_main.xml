@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.donation.MainActivity">
+    <item
+        android:id="@+id/menuReport"
+        android:orderInCategory="101"
+        android:title="Report" />
+    <item
+        android:id="@+id/menuDonate"
+        android:orderInCategory="102"
+        android:title="Donate" />
+    <item
+        android:id="@+id/menuReset"
+        android:orderInCategory="103"
+        android:title="Reset" />
+</menu>
